@@ -3,6 +3,8 @@
   max-width: 900px;
   margin: auto;
   padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+
 }
 
 .header {
@@ -10,6 +12,8 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .actions {
@@ -25,7 +29,7 @@
 .actions button {
   padding: 8px 16px;
   margin-right: 10px;
-  background-color: #007bff;
+  background-color: black;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -36,6 +40,8 @@
   flex-flow: row nowrap;
   align-items: center;
   margin-bottom: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
 }
 
 .intern-card img {
@@ -47,7 +53,7 @@
 
 .intern-info h3 {
   margin-top: 0;
-}
+} 
 
 .intern-info p {
   margin: 5px 0;

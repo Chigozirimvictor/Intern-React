@@ -8,7 +8,7 @@ const internsData = [
     name: 'Charles Active',
     picture: 'https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg',
     program: 'Statistics',
-    email: 'charlesactive@gmail.com.com',
+    email: 'charlesactive@gmailcom.com',
     grade: 92,
   },
   {
@@ -66,7 +66,24 @@ const internsData = [
     program : 'Content Creator',
     email: 'glorychioma23@gmail.com',
     grade: 85,
+  },
+  {
+    id: 9,
+    name: 'Joy Okwudire',
+    picture: 'https://img.freepik.com/premium-photo/black-woman-arms-crossed-standing-isolated-gray-background-confident-profile-empowerment-portrait-african-american-female-model-with-serious-face-leadership-management_590464-154634.jpg?w=740',
+     program : 'FrontEnd WebDeveloper',
+    email: 'joyokwu@gmail.com',
+    grade: 92,
+  },
+  {
+    id: 10,
+    name: 'Tappi Messi',
+    picture: 'https://img.freepik.com/free-photo/black-man-posing_23-2148171684.jpg?w=740&t=st=1711403647~exp=1711404247~hmac=b3ddb5ab562de65ec8c076e71345c54cdd6a83d196dacc71aab31947237b78e2',
+     program : 'Data Analyst',
+    email: 'tappi@gmail.com',
+    grade: 88,
   }
+  
 ];
 
 const InternGradingDashboard = () => {
